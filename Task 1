@@ -1,0 +1,47 @@
+# Create a list
+my_list = [1, 2, 3]
+print("Original list:", my_list)
+
+# Add an element 
+my_list.append(4)
+print("List after appending:", my_list)
+
+# Insert an element 
+my_list.insert(0, 0)
+print("List after inserting:", my_list)
+
+# Modify an element
+my_list[1] = 1.5
+print("List after modifying:", my_list)
+
+# Remove an element by index
+my_list.pop(0)
+print("List after removing by index:", my_list)
+
+# Create a dictionary
+my_dict = {"a": 1, "b": 2, "c": 3}
+print("Original dictionary:", my_dict)
+
+# Add a new key-value pair
+my_dict["d"] = 4
+print("Dictionary after adding:", my_dict)
+
+# Modify 
+my_dict["b"] = 2.5
+print("Dictionary after modifying:", my_dict)
+
+# Remove a key-value pair
+del my_dict["c"]
+print("Dictionary after removing:", my_dict)
+
+# Create a set
+my_set = {1, 2, 3}
+print("Original set:", my_set)
+
+# Add an element
+my_set.add(4)
+print("Set after adding:", my_set)
+
+# Remove an element
+my_set.remove(1)
+print("Set after removing:", my_set)
